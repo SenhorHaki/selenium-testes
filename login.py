@@ -5,7 +5,7 @@ from time import sleep
 navegador = webdriver.Chrome()
 navegador.get('http://www.infordu.com')
 sleep(3)
-
+#sleep(3)
 
 login_input = navegador.find_element_by_xpath('/html/body/div/div[2]/div/div[1]/label/input')
 login_input.send_keys('admin')
